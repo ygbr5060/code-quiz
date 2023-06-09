@@ -11,7 +11,7 @@ A simple quiz application that tests your coding knowledge. Try to answer the co
 
 ## Deployed Webpage
 
-You can access the deployed webpage of the Coding Quiz application [here](https://ygbr5060.github.io/code-quiz/). The webpage allows you to take the quiz, view highscores, and submit your score.
+You can access the deployed webpage of the Coding Quiz application https://ygbr5060.github.io/code-quiz/. The webpage allows you to take the quiz, view highscores, and submit your score.
 
 ## Installation
 
