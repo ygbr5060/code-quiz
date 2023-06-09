@@ -35,9 +35,4 @@ var questions = [
       choices: ["To declare variables", "To perform a specific task", "To make decisions", "To repeat a block of code"],
       answer: 3
     },
-    // Add more questions here
-  ];
-  
-  // Export the questions array
-  export default questions;
-  
+  ]

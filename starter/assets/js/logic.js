@@ -30,12 +30,12 @@ function startQuiz() {
   }, 1000);
 
   // Display the first question
-  displayQuestion();
+  displayQuestion(currentQuestionIndex);
 }
 
 // Display a question
-function displayQuestion() {
-  var currentQuestion = questions[currentQuestionIndex];
+function displayQuestion(index) {
+  var currentQuestion = questions[index];
   questionTitleEl.textContent = currentQuestion.question;
   choicesEl.innerHTML = "";
 
@@ -74,7 +74,7 @@ function handleAnswerClick(event) {
   if (currentQuestionIndex === questions.length) {
     endQuiz();
   } else {
-    displayQuestion();
+    displayQuestion(currentQuestionIndex);
   }
 }
 
